@@ -26,7 +26,7 @@ img1 = img.astype(np.float32)
 m,n = img.shape
 #print(m,n)
 
-# Y = np.zeros(256).reshape((16,16))
+#Y = np.zeros(256).reshape((16,16))
 
 hdata = np.vsplit(img,n/8) # 垂直分成高度度为8 的块
 for i in range(0, n//8):
